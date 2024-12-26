@@ -7,6 +7,9 @@
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 28
 
+
+DEVICE_PATH := device/sts/a05bd
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -14,6 +17,8 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # Audio Configs
+
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/lib/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/etc/lib/libhidltransport.so \
     $(DEVICE_PATH)/configs/camera/lib64/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/etc/lib64/libhidltransport.so
