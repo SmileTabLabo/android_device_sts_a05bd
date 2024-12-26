@@ -172,6 +172,8 @@ vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
 
 # Camera
+lib/libhidltransport.so
+lib64/libhidltransport.so
 lib/hw/camera.default.so
 lib64/hw/camera.default.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-external-service
